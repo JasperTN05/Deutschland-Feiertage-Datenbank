@@ -6,7 +6,7 @@ Dieses Projekt stellt eine umfassende Datenbank aller deutschen Feiertage von 20
 Die API (https://feiertage-api.de/) bietet einen kostenlosen Webservice zur Abfrage von Feiertagen in Deutschland. Sie unterstützt verschiedene Parameter, darunter das Jahr und das Bundesland, und liefert die entsprechenden Feiertagsdaten im JSON-Format zurück. Allerdings können immer nur Daten für ein Bundesland und ein Jahr aufeinmal abgerufen werden.
 
 ## Projektstruktur:
-Python-Skript: Der Python-Code nutzt die requests-Bibliothek, um die API aufzurufen, und die pandas-Bibliothek, um die Daten zu verarbeiten, zu entwickeln, zusammenzuführen und in ein CSV-Format zu konvertieren.
+Der Python-Code nutzt die requests-Bibliothek, um die API aufzurufen, und die pandas-Bibliothek, um die Daten zu verarbeiten, zu entwickeln, zusammenzuführen und in ein CSV-Format zu konvertieren.
 CSV-Datei: Die generierte CSV-Datei enthält alle Feiertagsinformationen, einschließlich des Feiertagsnamens, des Datums und eventueller Hinweise, für die Jahre 2000 bis 2030. Die Daten sind nach Bundesländern und Jahren strukturiert.
 
 ## Hinweise:
@@ -16,6 +16,6 @@ Wenn sich ein Wert in der Spalte Hinweis befindet, handelt es sich bei dem Feier
 
 ## Ausführung
 - Entweder kann die CSV-Datei aus diesem Repository (mit Daten von 2000-2030) direkt heruntergeladen und benutzt werden oder der Code kann abgeändert werden und so eine neue csv generiert werden, um sich auf andere Zeiträume und bestimmte Bundesländer zu fokussieren.
-- Für letzteres müssen alle Python Biblitheken aus der requirements.txt Datei im Environment (-r requirements.txt ) installiert sein.
+- Für letzteres müssen alle Python Biblitheken aus der requirements.txt Datei im Environment (pip install -r requirements.txt ) installiert sein.
 - Zusätzlich können - wenn benötigt - im Script "feiertage_fetch" die "years" und "states" Listen auf die benötigten Informationen ergänzt oder gekürzt werden.
 - Danach muss das Script nur noch einmal ausgeführt werden und schon kann mit den neuen Daten analysiert werden :) 
