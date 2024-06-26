@@ -18,4 +18,4 @@ Wenn sich ein Wert in der Spalte Hinweis befindet, handelt es sich bei dem Feier
 - Entweder kann die CSV-Datei aus diesem Repository (mit Daten von 2000-2030) direkt heruntergeladen und benutzt werden oder der Code kann abgeändert werden und so eine neue csv generiert werden, um sich auf andere Zeiträume und bestimmte Bundesländer zu fokussieren.
 - Für letzteres müssen alle Python Biblitheken aus der requirements.txt Datei im Environment (pip install -r requirements.txt ) installiert sein.
 - Zusätzlich können - wenn benötigt - im Script "feiertage_fetch" die "years" und "states" Listen auf die benötigten Informationen ergänzt oder gekürzt werden.
-- Danach muss das Script nur noch einmal ausgeführt werden und schon kann mit den neuen Daten analysiert werden :) 
+- Danach muss das Script nur noch einmal ausgeführt werden (python feiertage_fetch.py) und schon kann mit den neuen Daten analysiert werden :) 
